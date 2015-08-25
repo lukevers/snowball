@@ -1,0 +1,16 @@
+{
+    "name": "lukevers/snowball",
+    "description": "An Easily Scriptable IRC Bot",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Evers",
+            "email": "composer@lukevers.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Snowball\\": "src/Snowball/"
+        }
+    }
+}
