@@ -1,4 +1,8 @@
 # snowball
+[![Latest Stable Version](https://poser.pugx.org/lukevers/snowball/v/stable)](https://packagist.org/packages/lukevers/snowball)
+[![Latest Unstable Version](https://poser.pugx.org/lukevers/snowball/v/unstable)](https://packagist.org/packages/lukevers/snowball)
+[![License](https://poser.pugx.org/lukevers/snowball/license)](https://packagist.org/packages/lukevers/snowball)
+[![Total Downloads](https://poser.pugx.org/lukevers/snowball/downloads)](https://packagist.org/packages/lukevers/snowball)
 
 Snowball is an easily scriptable IRC bot written in PHP.
 
@@ -27,9 +31,7 @@ No, I'm serious. If you like this, use it! If you don't, [use one](https://hubot
 ## How Do I Install It?
 
 ```bash
-git clone https://github.com/lukevers/snowball
-cd snowball
-composer dump-autoload
+composer require lukevers/snowball
 ```
 
 ## Can I Have An Example?
