@@ -42,7 +42,8 @@ class Message {
     /**
      * Constructs a new Message
      *
-     * @param string $raw
+     * @param  string $raw
+     * @return Snowball\Irc\Message
      */
     public function __construct($raw) {
         $this->raw = $raw;
@@ -51,6 +52,8 @@ class Message {
 
     /**
      * Parse an Irc message.
+     *
+     * @return Snowball\Irc\Message
      */
     private function parse() {
         if (strpos($this->raw, ':') !== 0) {
