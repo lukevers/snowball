@@ -70,6 +70,16 @@ class Bot extends User {
     }
 
     /**
+     * Say something in a channel
+     *
+     * @param string $channel
+     * @param string $message
+     */
+    public function say($channel, $message) {
+        $this->conn->write("PRIVMSG $channel $message");
+    }
+
+    /**
      * Add Listener
      *
      * @param string   $command
