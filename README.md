@@ -4,7 +4,7 @@
 [![License](https://poser.pugx.org/lukevers/snowball/license)](https://packagist.org/packages/lukevers/snowball)
 [![Total Downloads](https://poser.pugx.org/lukevers/snowball/downloads)](https://packagist.org/packages/lukevers/snowball)
 
-Snowball is an easily scriptable IRC bot written in PHP.
+Snowball is an easily scriptable IRC bot framework written in PHP.
 
 ## Why The Name Snowball?
 
@@ -22,17 +22,17 @@ snowball
 
 [Yes.](https://news.ycombinator.com/item?id=3067434)
 
-## No, Really.
-
-`¯\_(ツ)_/¯`
-
-No, I'm serious. If you like this, use it! If you don't, [use one](https://hubot.github.com/) [of the](https://github.com/ProgVal/Limnoria) [hundreds of](https://github.com/lukevers/kittens/) [other irc bots](http://wildphp.com/) [out there](http://phergie.org/).
-
 ## How Do I Install It?
+
+With [composer](https://getcomposer.org/).
 
 ```bash
 composer require lukevers/snowball
 ```
+
+Although composer is preferred, you can just clone this.
+
+![I'm a README, not a cop.](http://i.imgur.com/mSHi8.jpg)
 
 ## Can I Have An Example?
 
